@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
-  get 'ba_pages/home'
 
+  root :to => 'ba_pages#home'
+
+  get 'ba_pages/home'
   get 'ba_pages/contactus'
 
   # The priority is based upon order of creation: first created -> highest priority.
