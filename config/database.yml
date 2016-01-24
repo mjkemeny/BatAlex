@@ -21,12 +21,12 @@ test:
   <<: *default
   database: db/test.sqlite3
 
-# production:
-# adapter: postgresql
-# encoding: unicode
-# database: db/production
-# pool: 5
-# username:
-# password:
-# host:
-# port: 5432
+ production:
+ adapter: postgresql
+ encoding: unicode
+ database: db/production
+ pool: 5
+ username:
+ password:
+ host:
+ port: 5432
