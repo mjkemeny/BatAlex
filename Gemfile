@@ -4,11 +4,14 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
 # Use sqlite3 as the database for Active Record
-# gem 'sqlite3', '1.3.11'
+gem 'sqlite3', '1.3.11'
 # Use SCSS for stylesheets
 gem 'sass-rails'
 gem 'sass'
-gem 'postgresql'
+
+gem 'rake', '10.4.2'
+gem 'pg'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views

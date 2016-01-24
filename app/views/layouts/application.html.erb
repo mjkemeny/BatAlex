@@ -7,9 +7,42 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<h1 class h1.center> Hello! Welcome to Battery Alexander Partners </h1>
+<header class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <ul class="navbar-brand navbar-nav navbar-left">
+                <%= link_to "Battery Alexander Partners", '#', id:"logo" %>
+            </ul>
+        </div>
+        <div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><%= link_to "Home", "#" %></li>
+                <li><%= link_to "About Us", "#" %></li>
+                <li><%= link_to "Investments", "#" %></li>
+                <li><%= link_to "Investors", "#" %></li>
+                <li><%= link_to "Advisory Services", "#" %></li>
+                <li><%= link_to "Contact Us", "#" %></li>
+            </ul>
+        </div>
 
-<%= yield %>
+      </div>
+    </div>
+</header>
+
+<body id="mainpageimage">
+
+<div class=""container">
+    <%= yield %>
+</div>
 
 </body>
+
+<footer class="navbar navbar-default navbar-fixed-bottom">
+  <div class=""container">
+    <ul class="nav navbar-nav navbar-right"">
+        <li id="copyright">Copyright 2016 Battery Alexander Partners, LLC</li>
+    </ul>
+  </div>
+</footer>
+
 </html>

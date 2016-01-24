@@ -2,8 +2,9 @@ Rails.application.routes.draw do
 
   root :to => 'ba_pages#home'
 
-  get 'ba_pages/home'
-  get 'ba_pages/contactus'
+  get '/home', to: 'ba_pages#home'
+  get '/contactus', to: 'ba_pages#contactus'
+  get '/aboutus', to: 'ba_pages#aboutus'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

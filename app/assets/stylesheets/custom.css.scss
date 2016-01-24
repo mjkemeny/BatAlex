@@ -1,0 +1,37 @@
+@import "bootstrap";
+
+html {overflow-y: scroll;}
+body {padding-top: 60px;}
+section {overflow: auto;}
+
+.center {text-align: center;}
+.center h1 {margin-bottom: 10px}
+
+#mainpageimage{
+  background-image: url('Battery-blurred-3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#logo {
+  color: mediumseagreen;
+  font-weight: bold;
+
+}
+
+#logo:hover {
+  color: mediumseagreen;
+  text-decoration: none;
+
+}
+
+#copyright {
+  text-align: right;
+  padding-top: 15px;
+  padding-right: 30px;
+
+
+}
+
+

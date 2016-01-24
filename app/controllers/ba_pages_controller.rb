@@ -4,4 +4,8 @@ class BaPagesController < ApplicationController
 
   def contactus
   end
+
+  def aboutus
+  end
+
 end
