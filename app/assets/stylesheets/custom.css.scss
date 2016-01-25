@@ -3,19 +3,62 @@
 html {overflow-y: scroll;}
 body {padding-top: 60px;}
 section {overflow: auto;}
+br {
 
+}
+
+.jumbotron {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 0.85);
+  color: black;
+  width: 75%;
+  height: 100%;
+  font-size: 1.2em;
+  margin-top: 25px;
+
+}
+
+.navbar{
+  background-color: whitesmoke;
+
+}
+
+#itit {
+  font-style: italic;
+  color: black;
+  font-weight: bold;
+  padding-right: 2.5%;
+  margin-bottom: 25px;
+  text-align: right;
+}
 .center {text-align: center;}
 .center h1 {margin-bottom: 10px}
+
+#pageheader {
+  color: black;
+  font-weight: bold;
+  padding-left: 12.5%;
+
+}
 
 #mainpageimage{
   background-image: url('Battery-blurred-3.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+}
 
+#homepageimage{
+  background-image: url('Welcome-to-the-Battery-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #logo {
-  color: mediumseagreen;
+  color: forestgreen;
   font-weight: bold;
 
 }

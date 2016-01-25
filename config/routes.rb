@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get '/home', to: 'ba_pages#home'
   get '/contactus', to: 'ba_pages#contactus'
   get '/aboutus', to: 'ba_pages#aboutus'
+  get '/investments', to: 'ba_pages#investments'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
