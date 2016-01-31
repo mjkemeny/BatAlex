@@ -120,7 +120,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
   jquery-rails
-  pg
+  pg (= 0.18.4)
   rails (= 4.1.8)
   rake (= 10.4.2)
   sass

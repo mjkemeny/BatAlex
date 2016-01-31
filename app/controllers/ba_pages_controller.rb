@@ -11,4 +11,10 @@ class BaPagesController < ApplicationController
   def aboutus
   end
 
+  def advisoryservices
+  end
+
+  def investors
+  end
+
 end

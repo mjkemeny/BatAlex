@@ -13,27 +13,35 @@ br {
   padding-top: 25px;
   padding-bottom: 25px;
   background-color: rgba(255, 255, 255, 1);
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.95);
   color: black;
   width: 75%;
   height: 100%;
   font-size: 1.2em;
   margin-top: 25px;
+  font: Helvetica;
 
 }
 
 .navbar{
   background-color: whitesmoke;
-
+  font: Helvetica;
+  font-size: 1.2em;
 }
 
-#itit {
-  font-style: italic;
+#advul{
+  font-size: 1.2em;
+}
+
+
+#introtext {
   color: black;
-  font-weight: bold;
   padding-right: 2.5%;
+  padding-left: 60%;
   margin-bottom: 25px;
   text-align: right;
+  font: Helvetica;
+  font-size: 2.0em;
 }
 .center {text-align: center;}
 .center h1 {margin-bottom: 10px}
@@ -46,7 +54,7 @@ br {
 }
 
 #mainpageimage{
-  background-image: url('Battery-blurred-3.jpg');
+  background-image: url('Battery%202.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -57,9 +65,35 @@ br {
   background-size: cover;
 }
 
+#investmentspageimage{
+  background-image: url('Investments.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#investorspageimage{
+  background-image: url('Investors3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#advisorypageimage{
+  background-image: url('Battery-plan 2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#contactpageimage{
+  background-image: url('Contact3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #logo {
   color: forestgreen;
   font-weight: bold;
+  font-size: 1.2em;
 
 }
 
