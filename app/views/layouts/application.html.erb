@@ -7,11 +7,11 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<header class="navbar navbar-default navbar-fixed-top">
+<header class="navbar navbar-default navbar-top">
     <div class="container-fluid">
         <div class="navbar-header">
             <ul class="navbar-brand navbar-nav navbar-left">
-                <%= link_to "Battery Alexander Partners", '#', id:"logo" %>
+                <%= link_to "Battery Alexander Partners", '/home', id:"logo" %>
             </ul>
         </div>
         <div>
@@ -36,12 +36,8 @@
 
 </body>
 
-<footer class="navbar navbar-default navbar-fixed-bottom">
-  <div class=""container">
-    <ul class="nav navbar-nav navbar-right"">
-        <li id="copyright">Copyright 2016 Battery Alexander Partners, LLC</li>
-    </ul>
-  </div>
+<footer id="copyright">
+        <p>Copyright 2016 Battery Alexander Partners, LLC</p>
 </footer>
 
 </html>
