@@ -2,10 +2,13 @@
 
 html {
   overflow-y: scroll;
-  font: Helvetica;}
+  font: Helvetica;
+  min-width: 1500px;
+}
 body {
 
   padding-bottom: 10%;
+
 
 }
 section {overflow: auto;}
@@ -46,6 +49,7 @@ br {
   padding-top: 4%;
   padding-right: 14.1%;
   padding-left: 14.1%;
+
 
 
 }
@@ -101,12 +105,16 @@ br {
   background-repeat: no-repeat;
   background-size: cover;
 
+
 }
 
 #homepageimage{
   background-image: url('SFSkyline.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+
+
+
 }
 
 #investmentspageimage{
@@ -123,13 +131,13 @@ br {
 }
 
 #advisorypageimage{
-  background-image: url('Battery-plan 2.jpg');
+  background-image: url('Construction2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #contactpageimage{
-  background-image: url('Contact5.png');
+  background-image: url('Battery-plan 2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
