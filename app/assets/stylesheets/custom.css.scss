@@ -79,15 +79,21 @@ br {
 }
 
 #introtext {
-  color: black;
-  background-color: transparent;
+  color: lightgray;
+  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(25, 25, 25, 0.6);
+  margin-left: 55%;
   margin-right: 14.05%;
+  padding-left: 1.0%;
   padding-right: 1.0%;
-  margin-top: 25px;
-  text-align: right;
+  margin-top: 30%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: left;
   vertical-align: bottom;
   font: Helvetica;
-  font-size: 1.4em;
+  font-size: 1.8em;
+  text-shadow: #2E2F30;
 }
 .center {text-align: center;}
 .center h1 {margin-bottom: 10px}
