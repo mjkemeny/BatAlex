@@ -2,12 +2,12 @@
 
 html {
   overflow-y: scroll;
-  font: Helvetica;
   min-width: 1500px;
 }
 body {
 
   padding-bottom: 10%;
+  font: Verdana;
 
 
 }
@@ -26,12 +26,16 @@ br {
   color: black;
   width: 70%;
   height: 100%;
-  font-size: 1.1em;
   margin-top: 1%;
-  font: Helvetica;
   border-style: solid;
   border-color: lightgray;
   border-width: 1px;
+
+}
+
+.jumbotron p {
+  font-size: 17px;
+
 
 }
 
@@ -69,9 +73,9 @@ br {
   color: black;
   width: 48%;
   height: 100%;
-  font-size: 1.2em;
+  font-size: 17px;
   margin-top: 1%;
-  margin-left: 50%;
+  margin-left: 42%;
   border-style: solid;
   border-color: lightgray;
   border-width: 0.5px;
@@ -107,7 +111,7 @@ br {
 }
 
 #mainpageimage{
-  background-image: url('SeattleSkyline.jpg');
+  background-image: url('SFByNight.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -124,26 +128,26 @@ br {
 }
 
 #investmentspageimage{
-  background-image: url('los-angeles-skyline.jpg');
+  background-image: url('NYCApts3.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #investorspageimage{
-  background-image: url('Investors4.jpg');
+  background-image: url('GGBridge.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 
 }
 
 #advisorypageimage{
-  background-image: url('Construction2.jpg');
+  background-image: url('Advisory2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #contactpageimage{
-  background-image: url('Battery-plan 2.jpg');
+  background-image: url('SFContact2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
