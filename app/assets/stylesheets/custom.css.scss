@@ -7,6 +7,7 @@ html {
 body {
 
   padding-bottom: 10%;
+  font-size: 17px;
   font: Verdana;
 
 
@@ -22,8 +23,7 @@ br {
   padding-top: 25px;
   padding-bottom: 25px;
   background-color: rgba(255, 255, 255, 1);
-  background-color: rgba(255, 255, 255, 0.8);
-  color: black;
+  background-color: rgba(255, 255, 255, 0.9);
   width: 70%;
   height: 100%;
   margin-top: 1%;
@@ -41,14 +41,13 @@ br {
 
 #CU {
   color: white;
-  font-size: 1.2em;
+
 }
 
 
 .navbar{
   background-color: whitesmoke;
   background-color: rgba(245, 245, 245, 0.95);
-  font: Helvetica;
   font-size: 15px;
   padding-top: 4%;
   padding-right: 14.1%;
@@ -59,7 +58,7 @@ br {
 }
 
 #advul{
-
+font-size: 17px;
 }
 
 #contactus{
@@ -79,7 +78,7 @@ br {
   border-style: solid;
   border-color: lightgray;
   border-width: 0.5px;
-  font: Helvetica;
+
 }
 
 #introtext {
@@ -95,7 +94,6 @@ br {
   padding-bottom: 25px;
   text-align: left;
   vertical-align: bottom;
-  font: Helvetica;
   font-size: 22px;
   text-shadow: #2E2F30;
 }
@@ -154,7 +152,6 @@ br {
 
 #logo {
   color: black;
-  font-weight: bold;
   font-size: 22px;
   text-align: left;
 
@@ -171,8 +168,7 @@ br {
   text-align: right;
   background-color: whitesmoke;
   background-color: rgba(245, 245, 245, 0.95);
-  font: Helvetica;
-  font-size: 1.2em;
+  font-size: 15px;
   padding-right: 2%;
   padding-top: 15px;
   position: fixed;
