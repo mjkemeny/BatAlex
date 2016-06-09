@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get '/investments', to: 'ba_pages#investments'
   get '/advisory', to: 'ba_pages#advisoryservices'
   get '/investors', to: 'ba_pages#investors'
+  get '/leadership', to: 'ba_pages#leadership'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

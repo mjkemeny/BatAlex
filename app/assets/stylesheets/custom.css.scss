@@ -62,6 +62,18 @@ br {
 
 }
 
+#leaderleft {
+  float: left;
+  horizontal-align: left;
+  width: 175px;
+  padding-top: 4px;
+}
+
+#leaderright {
+  padding-left: 175px;
+
+}
+
 #advul{
 font-size: 17px;
 font-weight: 200;
@@ -148,6 +160,13 @@ font-weight: 200;
   background-image: url('Advisory2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#leadershippageimage {
+  background-image: url('Leadership.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 #contactpageimage{

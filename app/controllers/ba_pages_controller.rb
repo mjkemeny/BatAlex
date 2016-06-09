@@ -17,4 +17,7 @@ class BaPagesController < ApplicationController
   def investors
   end
 
+  def leadership
+  end
+
 end
