@@ -5,7 +5,7 @@ class BaPagesController < ApplicationController
   def contactus
   end
 
-  def investments
+  def capital
   end
 
   def aboutus

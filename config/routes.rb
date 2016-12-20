@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   get '/home', to: 'ba_pages#home'
   get '/contactus', to: 'ba_pages#contactus'
   get '/aboutus', to: 'ba_pages#aboutus'
-  get '/investments', to: 'ba_pages#investments'
+  get '/capital', to: 'ba_pages#capital'
   get '/advisory', to: 'ba_pages#advisoryservices'
   get '/investors', to: 'ba_pages#investors'
   get '/leadership', to: 'ba_pages#leadership'
