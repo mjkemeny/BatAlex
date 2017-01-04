@@ -5,7 +5,7 @@ class BaPagesController < ApplicationController
   def contactus
   end
 
-  def capital
+  def platforms
   end
 
   def aboutus
